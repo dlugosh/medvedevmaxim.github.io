@@ -38,6 +38,9 @@ color: white;
 text-align: center;
 font-family: monospace;
 }
+p {
+    text-align: center;
+}
 @keyframes animated-gradient{
   to {
     background-position: 200%;
