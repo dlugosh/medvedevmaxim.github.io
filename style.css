@@ -156,6 +156,13 @@ ol {
   counter-increment: li;
   content: counter(li);
 }
+.sss {
+  justify-content: center;
+  display:flex;
+} 
+ol:hover {
+  background-color:darkorange;
+}
 
 .footer{
 background:#000;
@@ -217,11 +224,4 @@ text-align:left;
 .footer .row a i{
 margin:0% 3%;
 }
-}
-.sss {
-  justify-content: center;
-  display:flex;
-} 
-ol:hover {
-  background-color:darkorange;
 }
